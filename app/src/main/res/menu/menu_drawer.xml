@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="ホーム" />
+        <item
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="視聴履歴" />
+        <item
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="おすすめ" />
+        <item
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="ブックマーク" />
+        <item
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="ランキング" />
+        <item
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="検索" />
+    </group>
+    <item
+        android:title="その他">
+        <menu>
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:title="お知らせ" />
+            <item
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="このアプリについて" />
+            <item
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="設定" />
+        </menu>
+    </item>
+</menu>
